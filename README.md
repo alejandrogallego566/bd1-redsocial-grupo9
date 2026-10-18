@@ -19,7 +19,7 @@ La idea es diseñar la base de datos de una red social pensada solo para estudia
 - Tarea1/Video/ -> Enlace al video de sustentación de la Tarea 1 en YouTube
 - Tarea2/Informe/ -> Informe en PDF del modelo lógico y la normalización
 - Tarea2/Video/ -> Enlace al video de sustentación de la Tarea 2 en YouTube
-- Tarea3/Script_Tarea3_Grupo9.sql -> Script DDL en PostgreSQL con las 16 tablas
+- Tarea3/Script -> Script DDL en PostgreSQL con las 16 tablas
 - Tarea3/Informe/ -> Informe técnico en PDF del modelo físico
 - Tarea3/Video/ -> Enlace al video de sustentación de la Tarea 3 en YouTube
 
