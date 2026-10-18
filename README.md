@@ -23,7 +23,3 @@ La idea es diseñar la base de datos de una red social pensada solo para estudia
 - Tarea3/Informe/ -> Informe técnico en PDF del modelo físico
 - Tarea3/Video/ -> Enlace al video de sustentación de la Tarea 3 en YouTube
 
-## Cómo ejecutar el script de la Tarea 3
-1. Instalar PostgreSQL (incluye pgAdmin 4) y crear una base de datos llamada pascualina.
-2. Abrir el Query Tool de pgAdmin 4 sobre esa base de datos y cargar el archivo Tarea3/Script_Tarea3_Grupo9.sql.
-3. Ejecutarlo completo. Se crean las 16 tablas.
