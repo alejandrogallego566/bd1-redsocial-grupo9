@@ -1,11 +1,5 @@
 /* =====================================================================
    RED SOCIAL ESTUDIANTIL "PASCUALINA" - Modelo físico en MySQL (DDL)
-   Base de Datos I - Grupo 9 - Tarea 4
-   Integrantes: Andry Zharick Mariño Moreno y Alejandro Gallego Velásquez
-   16 tablas del modelo lógico, 22 llaves foráneas y 2 campos JSON (datos semiestructurados)
-   Nombres: minúsculas, con guion bajo, en singular y sin tildes
-   Restricciones: pk_ (primaria), fk_ (foránea), uk_ (única), ck_ (regla de valores)
-   Requiere MySQL 8.0.16 o más nuevo (por los DEFAULT de fecha y las reglas CHECK)
    ===================================================================== */
 
 -- BASE DE DATOS
