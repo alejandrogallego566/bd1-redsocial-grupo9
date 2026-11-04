@@ -1,11 +1,5 @@
 /* =====================================================================
    RED SOCIAL ESTUDIANTIL "PASCUALINA" - Modelo físico en PostgreSQL (DDL)
-   Base de Datos I - Grupo 9 - Tarea 4
-   Integrantes: Andry Zharick Mariño Moreno y Alejandro Gallego Velásquez
-   16 tablas del modelo lógico, 22 llaves foráneas y 2 campos JSON (datos semiestructurados)
-   Nombres: minúsculas, con guion bajo, en singular y sin tildes
-   Restricciones: pk_ (primaria), fk_ (foránea), uk_ (única), ck_ (regla de valores)
-   Antes de ejecutar: crear la base de datos pascualina en pgAdmin y abrir el Query Tool sobre ella
    ===================================================================== */
 
 -- 0. LIMPIEZA: borra las tablas si ya existen (primero las hijas)
