@@ -1,14 +1,4 @@
-/* BORRADOR INICIAL - Andry Zharick Mariño Moreno - Tarea 5 - Grupo 9
-   Red social estudiantil Pascualina - consultas y vistas en PostgreSQL
-   Todavía sin la versión final: alias sin unificar y pocos comentarios */
-
-/* Tablas, campos y tipos que uso:
-   interes (id_interes SERIAL, nombre VARCHAR(60))
-   estudiante_interes (id_estudiante INTEGER, id_interes INTEGER)
-   evento (id_evento SERIAL, nombre VARCHAR(80)), asistente_evento (id_asistente SERIAL, id_evento INTEGER, estado VARCHAR(20))
-   estudiante (id_estudiante SERIAL, nombre VARCHAR(50), apellido VARCHAR(50), programa_academico VARCHAR(80))
-   publicacion (id_publicacion SERIAL, id_estudiante INTEGER), comentario (id_comentario SERIAL, id_estudiante INTEGER)
-   perfil (id_estudiante INTEGER, semestre INTEGER, ciudad VARCHAR(60)) */
+/* BORRADOR INICIAL - Andry Zharick Mariño Moreno - Tarea 5 - Grupo 9 */
 
 -- Consulta 1: cuántos estudiantes tienen cada interés
 SELECT i.nombre, COUNT(*) AS total
