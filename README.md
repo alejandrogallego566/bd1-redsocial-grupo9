@@ -13,19 +13,17 @@ La idea es diseñar la base de datos de una red social pensada solo para estudia
 - En la Tarea 1 se hizo el modelo conceptual (Entidad-Relación).
 - En la Tarea 2 se hizo el modelo lógico, con la normalización hasta la tercera forma normal y su diccionario de datos.
 - En la Tarea 3 se implementó el modelo físico en PostgreSQL (script DDL con las 16 tablas).
-- En la Tarea 4 se implementó el modelo en tres SGBD (PostgreSQL, MySQL y SQL Server), con campos JSON para datos semiestructurados (Big Data e IoT), un diccionario genérico actualizado y un diccionario físico por cada motor.
+- En la Tarea 4 se implementó el modelo en tres SGBD (PostgreSQL, MySQL y SQL Server), con campos JSON y diccionarios de datos.
+- En la Tarea 5 se hicieron 6 consultas DML y 4 vistas en PostgreSQL para responder preguntas de negocio de la red social.
 
 ## Estructura del repositorio
 - Tarea1/Informe/ y Tarea1/Video/ -> Modelo conceptual
 - Tarea2/Informe/ y Tarea2/Video/ -> Modelo lógico y normalización
-- Tarea3/Script_Tarea3_Grupo9.sql, Tarea3/Informe/ y Tarea3/Video/ -> Modelo físico en PostgreSQL
-- Tarea4/diccionarios/diccionario-generico/ -> Diccionario de datos genérico actualizado
-- Tarea4/diccionarios/diccionario-sgbd-1/ -> Diccionario físico de PostgreSQL
-- Tarea4/diccionarios/diccionario-sgbd-2/ -> Diccionario físico de MySQL
-- Tarea4/diccionarios/diccionario-sgbd-3/ -> Diccionario físico de SQL Server
-- Tarea4/ddl/scripts-ddl-sgbd-1/ -> Script DDL de PostgreSQL
-- Tarea4/ddl/scripts-ddl-sgbd-2/ -> Script DDL de MySQL
-- Tarea4/ddl/scripts-ddl-sgbd-3/ -> Script DDL de SQL Server
-- Tarea4/informe/ -> Informe técnico comparativo en PDF
-- Tarea4/video/ -> Enlace al video de sustentación en YouTube
+- Tarea3/ -> Modelo físico en PostgreSQL (script, informe y video)
+- Tarea4/ -> Tres SGBD: diccionarios, scripts DDL, informe y video
+- Tarea5/scripts/ -> Datos de ejemplo, borradores de cada integrante y script final de consultas y vistas
+- Tarea5/informe/ -> Informe técnico en PDF
+- Tarea5/video/ -> Enlace al video de sustentación en YouTube
+
+
 
