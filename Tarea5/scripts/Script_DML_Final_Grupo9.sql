@@ -1,15 +1,9 @@
 /* =====================================================================
    RED SOCIAL ESTUDIANTIL "PASCUALINA" - Consultas DML y vistas en PostgreSQL
-   Base de Datos I - Grupo 9 - Tarea 5 (VERSIÓN FINAL)
+   Base de Datos I - Grupo 9 - Tarea 5 
    Integrantes: Andry Zharick Mariño Moreno y Alejandro Gallego Velásquez
    Se ejecuta en la base de datos pascualina, después de Script_Tarea3_Grupo9.sql y 00_Datos_Ejemplo_Grupo9.sql
    Contiene 6 consultas (parte 1) y 4 vistas con su consulta (parte 2)
-   REGLAS PARA LOS ALIAS:
-   1. Siempre se escriben con la palabra AS
-   2. Los alias de columnas van en minúscula con guion bajo y dicen qué son (estudiante, programa)
-   3. Los datos calculados llevan prefijo: total_ (conteos), promedio_ (promedios), porcentaje_ (porcentajes)
-   4. Los alias de tablas son cortos y salen del nombre de la tabla (e = estudiante, g = grupo, ev = evento)
-   Para las capturas: seleccionar UNA consulta y ejecutarla con F5, así sale solo su resultado
    ===================================================================== */
 
 -- ============ PARTE 1: CONSULTAS ============
