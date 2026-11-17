@@ -1,13 +1,5 @@
-/* BORRADOR INICIAL - Alejandro Gallego Velásquez - Tarea 5 - Grupo 9
-   Red social estudiantil Pascualina - consultas y vistas en PostgreSQL
-   Todavía sin la versión final: alias sin unificar y pocos comentarios */
+/* BORRADOR INICIAL - Alejandro Gallego Velásquez - Tarea 5 - Grupo 9 */
 
-/* Tablas, campos y tipos que uso:
-   habilidad (id_habilidad SERIAL, nombre VARCHAR(60)), estudiante_habilidad (id_estudiante INTEGER, id_habilidad INTEGER, nivel VARCHAR(20))
-   estudiante (id_estudiante SERIAL, nombre VARCHAR(50), apellido VARCHAR(50), estado VARCHAR(20))
-   asistente_evento (id_asistente SERIAL, id_estudiante INTEGER, estado VARCHAR(20))
-   perfil (id_estudiante INTEGER, semestre INTEGER), mentoria (id_mentor INTEGER, id_aprendiz INTEGER, estado VARCHAR(20))
-   publicacion (id_publicacion SERIAL, tipo VARCHAR(20), fecha_publicacion TIMESTAMP), grupo (id_grupo SERIAL, nombre VARCHAR(80), tipo VARCHAR(30), estado VARCHAR(20)) */
 
 -- Consulta 4: cuántos estudiantes tienen cada habilidad
 SELECT h.nombre, COUNT(*) AS total
