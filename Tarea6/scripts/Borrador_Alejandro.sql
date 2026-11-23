@@ -1,11 +1,6 @@
 /* BORRADOR INICIAL - Alejandro Gallego Velásquez - Tarea 6 - Grupo 9
    Parte IoT: sensores y lecturas. Todavía sin la versión final */
 
-/* Tablas y campos que uso:
-   sensor (id_sensor SERIAL, id_lugar INTEGER, tipo VARCHAR(30), modelo VARCHAR(60))
-   lectura_sensor (id_lectura SERIAL, id_sensor INTEGER, fecha_hora TIMESTAMP, aforo INTEGER, temperatura NUMERIC(4,1), humedad INTEGER)
-   lugar (id_lugar SERIAL, nombre VARCHAR(80)), evento (id_evento SERIAL, nombre VARCHAR(80), id_lugar INTEGER, modalidad VARCHAR(20)) */
-
 -- Sensores
 CREATE TABLE sensor (
     id_sensor SERIAL PRIMARY KEY,
