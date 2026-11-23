@@ -2,10 +2,6 @@
    RED SOCIAL ESTUDIANTIL "PASCUALINA" - Arquitectura híbrida (relacional + JSONB + IoT) en PostgreSQL
    Base de Datos I - Grupo 9 - Tarea 6 (VERSIÓN FINAL)
    Integrantes: Andry Zharick Mariño Moreno y Alejandro Gallego Velásquez
-   Se ejecuta en la base de datos pascualina, después de Script_Tarea3_Grupo9.sql y 00_Datos_Ejemplo_Grupo9.sql (Tarea 5)
-   Parte 1: DDL (campos JSONB y tablas IoT). Parte 2: datos de ejemplo. Parte 3: consultas con JSON. Parte 4: optimización
-   Reglas de ALIAS: siempre con AS, minúscula con guion bajo, prefijos total_, promedio_, maximo_ para datos calculados
-   Para las capturas: seleccionar UNA consulta y ejecutarla con F5
    ===================================================================== */
 
 -- ============ PARTE 1: DDL ============
