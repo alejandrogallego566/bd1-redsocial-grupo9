@@ -1,10 +1,6 @@
 /* BORRADOR INICIAL - Andry Zharick Mariño Moreno - Tarea 6 - Grupo 9
    Parte JSON: publicaciones y registro de actividad. Todavía sin la versión final */
 
-/* Tablas y campos que uso:
-   publicacion (id_publicacion SERIAL, id_estudiante INTEGER, tipo VARCHAR(20)) + metadatos JSONB (nuevo)
-   log_actividad (id_log SERIAL, id_estudiante INTEGER, accion VARCHAR(40), fecha_hora TIMESTAMP, detalle TEXT) */
-
 -- Campo JSONB en publicacion
 ALTER TABLE publicacion ADD COLUMN IF NOT EXISTS metadatos JSONB;
 
